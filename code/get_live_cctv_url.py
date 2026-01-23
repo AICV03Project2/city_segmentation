@@ -7,7 +7,7 @@ def get_cctv_final_api():
     # ------------------------------------------------------------------
     # [입력] 발급받으신 API KEY를 여기에 넣으세요
     # ------------------------------------------------------------------
-    API_KEY = ""  # Moo님의 키 입력됨
+    API_KEY = "" 
     
     # API 요청 설정
     url = "https://openapi.its.go.kr:9443/cctvInfo"
@@ -87,4 +87,5 @@ if __name__ == "__main__":
     import urllib3
     urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
     
+
     get_cctv_final_api()
